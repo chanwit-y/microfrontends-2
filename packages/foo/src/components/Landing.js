@@ -81,6 +81,9 @@ export default function Album() {
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card >
                   <CardMedia
+                   sx={{
+                     height: 200,
+                   }} 
                     image="https://source.unsplash.com/random"
                     title="Image title"
                   />

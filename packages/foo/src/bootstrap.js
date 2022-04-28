@@ -7,7 +7,7 @@ const mount = (el) => {
 };
 
 if (process.env.NODE_ENV === "development") {
-  const container = document.getElementById("root");
+  const container = document.getElementById("foo-root");
   if (container) mount(container);
 }
 
